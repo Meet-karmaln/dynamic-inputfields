@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* cursor: none !important; */
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: rgb(233, 231, 231);
+  /* background-image: url("https://images.unsplash.com/photo-1495578942200-c5f5d2137def?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnJpY2slMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  background-repeat: repeat-y;
+  background-size: cover; */
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 15px;
+}
+
+.container {
+  padding: 2rem;
+  background-color: rgb(221, 216, 216);
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.6rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(58, 63, 58);
+  border-radius: 3px;
+}
